@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
 }
 
-nav{
+nav {
     position: fixed;
     top: 0;
     width: 100%;
@@ -18,7 +18,7 @@ nav{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-nav a{
+nav a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@ nav a{
     opacity: 0.6;
 }
 
-nav a:hover{
+nav a:hover {
     opacity: 1;
 }
 
@@ -43,7 +43,7 @@ nav a:hover{
     color: #fff;
 }
 
-.wrap-img{
+.wrap-img {
     width: 300px;
     display: flex;
     align-items: center;
@@ -53,22 +53,24 @@ nav a:hover{
     border: 6px solid #fff;
     box-shadow: rgba(103, 206, 253, 0.961) 0px 5px 15px;
 }
-.img-s1{
-     width: 300px;
-     height: auto;
-     transition: all 200ms ease-in-out;
+
+.img-s1 {
+    width: 300px;
+    height: auto;
+    transition: all 200ms ease-in-out;
 }
-.img-s1:hover{
+
+.img-s1:hover {
     transform: scale(1.2);
 }
 
-.wrap-words{
+.wrap-words {
     width: 40%;
 }
 
 #s2 {
     min-height: 100vh;
-    background: url(./images/background.jfif);
+    background-color: rgb(38, 21, 196);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -117,8 +119,13 @@ nav a:hover{
 
 #s3 {
     min-height: 100vh;
-    padding-top: 80px;
-    background-color: rgb(42, 165, 99);
+    background-color: rgb(67, 8, 90);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+    color: #fff;
 }
 
 #s4 {
